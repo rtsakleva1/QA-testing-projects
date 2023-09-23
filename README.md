@@ -1,6 +1,6 @@
 # QA-testing-projects
 
-Check my Demo Testcase and Issue tracker files 
+Check my Demo Testcase and Issue tracker files :
 
 [**Demo Testcase 1**](https://docs.google.com/spreadsheets/d/1KJkOhmWNiOjhguj0Gp-zNuru_n65rwRablcbSpJYJNk/edit#gid=0)  
 
