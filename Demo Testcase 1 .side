@@ -1,0 +1,526 @@
+{
+  "id": "08a22541-f52e-4798-b394-033d111baed5",
+  "version": "2.0",
+  "name": "Demo Testcase 1 ",
+  "url": "https://www.asos.com/",
+  "tests": [{
+    "id": "481e1dd0-4001-467b-b833-be323b29401d",
+    "name": "Open the page",
+    "commands": [{
+      "id": "9957bd62-4ce2-4df2-9e6d-bb33cdb47b70",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ce8e5700-4611-480c-b242-2e90e5140108",
+    "name": "\"Find the first item without discount at the page e.g. \"\"Faded Short Sleeve T-Shirts\"\" \"\t\t",
+    "commands": [{
+      "id": "c40e7428-c21a-42fe-9f38-d93a9b057274",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.asos.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "058664e7-9364-432d-a7ca-68355cf4b930",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6d3a810-cb18-4bb8-8759-f7ff556a3054",
+      "comment": "",
+      "command": "type",
+      "target": "id=chrome-search",
+      "targets": [
+        ["id=chrome-search", "id"],
+        ["name=q", "name"],
+        ["css=#chrome-search", "css:finder"],
+        ["xpath=//input[@id='chrome-search']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-sticky-header']/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "faded short sleeve t-shirt"
+    }, {
+      "id": "a1e36dd7-b530-4593-ae63-f09a3978a307",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=chrome-search",
+      "targets": [
+        ["id=chrome-search", "id"],
+        ["name=q", "name"],
+        ["css=#chrome-search", "css:finder"],
+        ["xpath=//input[@id='chrome-search']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-sticky-header']/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a4d5b71f-9329-4564-af93-76e794734d4e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#product-204284333 img",
+      "targets": [
+        ["css=#product-204284333 img", "css:finder"],
+        ["xpath=//article[@id='product-204284333']/a/div/img", "xpath:idRelative"],
+        ["xpath=//article[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eb6ed2b-17ed-419a-a465-7e938b2e8539",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#product-204284333 img:nth-child(1)",
+      "targets": [
+        ["css=#product-204284333 img:nth-child(1)", "css:finder"],
+        ["xpath=//article[@id='product-204284333']/a/div/img", "xpath:idRelative"],
+        ["xpath=//article[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35e38294-388d-45a1-991d-a773ba15adf8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#product-205281687 img",
+      "targets": [
+        ["css=#product-205281687 img", "css:finder"],
+        ["xpath=//article[@id='product-205281687']/a/div/img", "xpath:idRelative"],
+        ["xpath=//article[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9d139c5-0280-4519-9037-a069882c5e00",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#product-205281687 img",
+      "targets": [
+        ["css=#product-205281687 img", "css:finder"],
+        ["xpath=//article[@id='product-205281687']/a/div/img", "xpath:idRelative"],
+        ["xpath=//article[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc91d828-9c40-470f-8fd4-81997990c8bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#product-205281687 img",
+      "targets": [
+        ["css=#product-205281687 img", "css:finder"],
+        ["xpath=//article[@id='product-205281687']/a/div/img", "xpath:idRelative"],
+        ["xpath=//article[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1d2a6d5-5fb6-4bc4-be46-bf140761bd57",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#product-205281687 img:nth-child(1)",
+      "targets": [
+        ["css=#product-205281687 img:nth-child(1)", "css:finder"],
+        ["xpath=//article[@id='product-205281687']/a/div/img", "xpath:idRelative"],
+        ["xpath=//article[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bea4644-1df3-426a-a755-53dfbc1932e8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=pta-product-205281687-1",
+      "targets": [
+        ["id=pta-product-205281687-1", "id"],
+        ["css=#pta-product-205281687-1", "css:finder"],
+        ["xpath=//p[@id='pta-product-205281687-1']", "xpath:attributes"],
+        ["xpath=//article[@id='product-205281687']/a/p", "xpath:idRelative"],
+        ["xpath=//article[3]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'€45.99')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e61d62f8-afc8-45a1-a252-2e5e968bf1a1",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1dbc6852-115c-4381-bef2-84e5a07d63e2",
+    "name": "Open the item ",
+    "commands": [{
+      "id": "29c72587-c216-42bb-965d-efd452bad424",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.asos.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e808f88-bc7b-4ee6-9b11-17f442d9886c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b91b90c-2c1b-477e-934c-3811ea072230",
+      "comment": "",
+      "command": "click",
+      "target": "id=chrome-search",
+      "targets": [
+        ["id=chrome-search", "id"],
+        ["name=q", "name"],
+        ["css=#chrome-search", "css:finder"],
+        ["xpath=//input[@id='chrome-search']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-sticky-header']/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38b1a744-c120-4cfb-ada8-b1e1b31cae30",
+      "comment": "",
+      "command": "type",
+      "target": "id=chrome-search",
+      "targets": [
+        ["id=chrome-search", "id"],
+        ["name=q", "name"],
+        ["css=#chrome-search", "css:finder"],
+        ["xpath=//input[@id='chrome-search']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-sticky-header']/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "faded"
+    }, {
+      "id": "4e4dd3c0-2d6d-4309-8156-f1ea0c5f1355",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-result-0",
+      "targets": [
+        ["id=search-result-0", "id"],
+        ["css=#search-result-0", "css:finder"],
+        ["xpath=//li[@id='search-result-0']", "xpath:attributes"],
+        ["xpath=//ul[@id='search-results']/div/li", "xpath:idRelative"],
+        ["xpath=//div/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Faded Short Sleeve T-shirt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "798bd7b7-93c4-4a3d-a0a5-50a1acfb7f22",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,266)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9690ec56-7a33-4888-88b4-72c1bd6dbbe3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,571)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "965c65a4-1a1b-46b6-9cd3-d21cf4eac800",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondImage_FigiG",
+      "targets": [
+        ["css=.secondImage_FigiG", "css:finder"],
+        ["xpath=//article[@id='product-205281687']/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01939aca-163d-4850-9dc7-83972d60df03",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d4534089-f873-4aa3-ab05-9ed86a290bc5",
+    "name": "Press \"Add to bag\" button",
+    "commands": [{
+      "id": "9a5b0a55-0472-450b-9ef3-ac0bdbb73d52",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.asos.com/men/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82a92c9f-97a9-4980-b35b-97a37030229e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43997e99-bea1-433d-acaa-8d48ffe7f632",
+      "comment": "",
+      "command": "click",
+      "target": "id=chrome-search",
+      "targets": [
+        ["id=chrome-search", "id"],
+        ["name=q", "name"],
+        ["css=#chrome-search", "css:finder"],
+        ["xpath=//input[@id='chrome-search']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-sticky-header']/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8d12151-45bd-4479-bbc1-303aa703e18c",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-result-0",
+      "targets": [
+        ["id=search-result-0", "id"],
+        ["css=#search-result-0", "css:finder"],
+        ["xpath=//li[@id='search-result-0']", "xpath:attributes"],
+        ["xpath=//ul[@id='search-results']/div/li", "xpath:idRelative"],
+        ["xpath=//div/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Faded Short Sleeve T-shirt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "183a6162-3d31-43f5-8829-5eed20e884fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#product-205281687 img",
+      "targets": [
+        ["css=#product-205281687 img", "css:finder"],
+        ["xpath=//article[@id='product-205281687']/a/div/img", "xpath:idRelative"],
+        ["xpath=//article[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99f0e5ac-0f7e-44f6-828c-98c4a8a0def1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#product-205281687 img:nth-child(1)",
+      "targets": [
+        ["css=#product-205281687 img:nth-child(1)", "css:finder"],
+        ["xpath=//article[@id='product-205281687']/a/div/img", "xpath:idRelative"],
+        ["xpath=//article[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5311e21c-168d-4ff6-a12b-169fe5c13816",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondImage_FigiG",
+      "targets": [
+        ["css=.secondImage_FigiG", "css:finder"],
+        ["xpath=//article[@id='product-205281687']/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90544229-c766-4f73-9ba6-e1cdfc8018c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondImage_FigiG",
+      "targets": [
+        ["css=.secondImage_FigiG", "css:finder"],
+        ["xpath=//article[@id='product-205281687']/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3288089e-cebd-4a68-b3b5-120d0a680e9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MRMAA",
+      "targets": [
+        ["css=.MRMAA", "css:finder"],
+        ["xpath=//div[@id='pdp-react-critical-app']/div[5]/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "612e2b92-131b-4fe8-ac35-f2c0e613d659",
+      "comment": "",
+      "command": "click",
+      "target": "id=variantSelector",
+      "targets": [
+        ["id=variantSelector", "id"],
+        ["css=#variantSelector", "css:finder"],
+        ["xpath=//select[@id='variantSelector']", "xpath:attributes"],
+        ["xpath=//div[@id='pdp-react-critical-app']/div[5]/div[2]/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e9b684e-b948-41a1-bb03-dda4cba35a99",
+      "comment": "",
+      "command": "select",
+      "target": "id=variantSelector",
+      "targets": [],
+      "value": "label=M"
+    }, {
+      "id": "0de268ae-1be7-4be7-aaa4-8474a6cbc292",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jAEfQ",
+      "targets": [
+        ["css=.jAEfQ", "css:finder"],
+        ["xpath=//div[@id='pdp-react-critical-app']/div[5]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd2ecead-f733-4c21-b4ca-b1f4cf34963d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jAEfQ",
+      "targets": [
+        ["css=.jAEfQ", "css:finder"],
+        ["xpath=//div[@id='pdp-react-critical-app']/div[5]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d72cf54-52c3-423c-9dc2-a79e1464af85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MRMAA",
+      "targets": [
+        ["css=.MRMAA", "css:finder"],
+        ["xpath=//div[@id='pdp-react-critical-app']/div[5]/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2ee1f6d8-d3bb-4aed-997f-37366875722f",
+    "name": "Press \"Checkout\" button in the pop-up window",
+    "commands": [{
+      "id": "7e2e5527-f0c9-468e-9760-8e24b2c3c974",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.asos.com/men/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c24edb4-bea3-4daa-8a63-beb45299bdb6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfafaf72-f182-431c-97bf-ac8b47167778",
+      "comment": "",
+      "command": "click",
+      "target": "id=chrome-search",
+      "targets": [
+        ["id=chrome-search", "id"],
+        ["name=q", "name"],
+        ["css=#chrome-search", "css:finder"],
+        ["xpath=//input[@id='chrome-search']", "xpath:attributes"],
+        ["xpath=//div[@id='chrome-sticky-header']/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a57f06a-fc29-49ef-ba8f-6df74d4ae47b",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-result-0",
+      "targets": [
+        ["id=search-result-0", "id"],
+        ["css=#search-result-0", "css:finder"],
+        ["xpath=//li[@id='search-result-0']", "xpath:attributes"],
+        ["xpath=//ul[@id='search-results']/div/li", "xpath:idRelative"],
+        ["xpath=//div/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Faded Short Sleeve T-shirt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "582eef4d-3921-47d0-8497-19b92de5eb49",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04a69850-1758-4e22-b712-041443e822b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondImage_FigiG",
+      "targets": [
+        ["css=.secondImage_FigiG", "css:finder"],
+        ["xpath=//article[@id='product-205281687']/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceebf71a-8725-4f41-ba31-2daeeb01a8e9",
+      "comment": "",
+      "command": "select",
+      "target": "id=variantSelector",
+      "targets": [],
+      "value": "label=S"
+    }, {
+      "id": "9d182179-6a75-49b2-8951-a3aba10418a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MRMAA",
+      "targets": [
+        ["css=.MRMAA", "css:finder"],
+        ["xpath=//div[@id='pdp-react-critical-app']/div[5]/div[2]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8560b9e5-367c-42ed-9d1d-81c2116d8694",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MRMAA",
+      "targets": [
+        ["css=.MRMAA", "css:finder"],
+        ["xpath=//div[@id='pdp-react-critical-app']/div[5]/div[2]/div[3]/button/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4483798b-a785-476e-95ce-438629ba1b9d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MRMAA",
+      "targets": [
+        ["css=.MRMAA", "css:finder"],
+        ["xpath=//div[@id='pdp-react-critical-app']/div[5]/div[2]/div[3]/button/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4943b935-25cc-4ec4-9e95-a46f13edc6bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mZPCs_0 > .IoxIrTY",
+      "targets": [
+        ["css=.mZPCs_0 > .IoxIrTY", "css:finder"],
+        ["xpath=//div[@id='minibag-dropdown']/div/div/div/div[3]/div/div[3]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a892a684-6ff1-407e-8dfc-b69d5844770b",
+    "name": "\"Enter the user email address to the field \"\"Email address\"\" of the form \"\"Join\"\" and remove the focus from the field  \"\t\t",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "b0bf3649-eafe-40fb-9dc3-340cc2094d98",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.asos.com/"],
+  "plugins": []
+}
